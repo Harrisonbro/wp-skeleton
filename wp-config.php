@@ -11,6 +11,7 @@ if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
 	define( 'DB_USER', '%%DB_USER%%' );
 	define( 'DB_PASSWORD', '%%DB_PASSWORD%%' );
 	define( 'DB_HOST', '%%DB_HOST%%' ); // Probably 'localhost'
+	defined('SITE_ROOT') ? null : define('SITE_ROOT', 'local_site_root'); // eg. '/Users/...'
 }
 
 // ========================
