@@ -7,3 +7,6 @@
 [submodule "content/mu-plugins/wordpress-seo"]
 	path = content/mu-plugins/wordpress-seo
 	url = git@github.com:Yoast/wordpress-seo.git
+[submodule "content/mu-plugins/w3-total-cache"]
+	path = content/mu-plugins/w3-total-cache
+	url = git@github.com:wp-mirror/mirror-w3-total-cache.git
