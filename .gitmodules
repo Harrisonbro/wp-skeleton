@@ -4,3 +4,6 @@
 [submodule "content/themes/wp-skeleton-theme"]
 	path = content/themes/wp-skeleton-theme
 	url = git://github.com/Harrisonbro/wp-skeleton-theme.git
+[submodule "content/mu-plugins/wordpress-seo"]
+	path = content/mu-plugins/wordpress-seo
+	url = git@github.com:Yoast/wordpress-seo.git
