@@ -4,4 +4,9 @@
 /db-sync
 /content/upgrade/
 .DS_Store
+
+# Allows skeleton theme to be symlinked for quicker development
 content/themes/wp-skeleton-theme-symlink
+
+# W3 Total Cache files
+content/w3-total-cache-config.php
