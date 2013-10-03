@@ -54,8 +54,12 @@ define( 'WPLANG', '' );
 // ===========
 // Hide errors
 // ===========
-ini_set( 'display_errors', 0 );
-define( 'WP_DEBUG_DISPLAY', false );
+if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
+	environment_debug(); 
+} else {
+	ini_set( 'display_errors', 0 );
+	define( 'WP_DEBUG_DISPLAY', false );
+}
 
 // =================================================================
 // Debug mode
