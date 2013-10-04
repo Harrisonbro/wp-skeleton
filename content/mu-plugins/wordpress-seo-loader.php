@@ -1,3 +1,3 @@
 <?php
 
-require('wordpress-seo/wp-seo.php'); 
+require( WPMU_PLUGIN_DIR . '/wordpress-seo/wp-seo.php' ); 
