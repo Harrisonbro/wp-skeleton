@@ -10,8 +10,11 @@ content/themes/wp-skeleton-theme-symlink
 
 # W3 Total Cache files
 content/w3-total-cache-config.php
+content/advanced-cache.php
+content/db.php
+content/object-cache.php
+content/w3tc/*
 
 .htaccess
 sitemap.xml
 sitemap.xml.gz
-.htaccess
