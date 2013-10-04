@@ -4,9 +4,9 @@
 [submodule "content/themes/wp-skeleton-theme"]
 	path = content/themes/wp-skeleton-theme
 	url = git://github.com/Harrisonbro/wp-skeleton-theme.git
-[submodule "content/mu-plugins/wordpress-seo"]
-	path = content/mu-plugins/wordpress-seo
+[submodule "content/plugins/wordpress-seo"]
+	path = content/plugins/wordpress-seo
 	url = git@github.com:Yoast/wordpress-seo.git
-[submodule "content/mu-plugins/w3-total-cache"]
-	path = content/mu-plugins/w3-total-cache
+[submodule "content/plugins/w3-total-cache"]
+	path = content/plugins/w3-total-cache
 	url = git@github.com:wp-mirror/mirror-w3-total-cache.git
