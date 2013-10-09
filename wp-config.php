@@ -57,7 +57,7 @@ define( 'WPLANG', '' );
 // ===========
 // Hide errors
 // ===========
-if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
+if ( function_exists('environment_debug') ) {
 	environment_debug(); 
 } else {
 	ini_set( 'display_errors', 0 );
