@@ -21,3 +21,9 @@ function environment_debug() {
 	ini_set( 'display_errors', 1 );
 	define( 'WP_DEBUG_DISPLAY', true );
 }
+
+/**
+ * Define URLs
+ */
+// define( 'WP_SITEURL', '.../wp' ); // "WordPress address (URL)"
+// define( 'WP_HOME', '...' ); // "Site address (URL)"
