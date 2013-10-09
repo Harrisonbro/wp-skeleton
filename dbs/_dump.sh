@@ -31,6 +31,6 @@ else
 fi
 
 # Create db backup
-mysqldump --no-create-db=true -h $DB_HOST -u $DB_USER -p$DB_PWD $DB_NAME > $FILE_NAME.$DATESTAMP.sql
+mysqldump --no-create-db=true -h $DB_HOST -u $DB_USER -p$DB_PASS $DB_NAME > $FILE_NAME.$DATESTAMP.sql
 # Create db sync file
-mysqldump --no-create-db=true -h $DB_HOST -u $DB_USER -p$DB_PWD $DB_NAME > db_sync.sql
+mysqldump --no-create-db=true -h $DB_HOST -u $DB_USER -p$DB_PASS $DB_NAME > db_sync.sql
