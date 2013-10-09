@@ -1,3 +1,6 @@
+# Disassociate this clone from main repo
+git remote rm origin
+
 # Removed cached history of submodules
 git rm --cached wp
 git rm --cached content/themes/wp-skeleton-theme
