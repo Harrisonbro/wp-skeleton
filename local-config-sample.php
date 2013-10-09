@@ -12,6 +12,7 @@ define( 'DB_PASSWORD', 'local_db_password' );
 define( 'DB_HOST', 'localhost' ); // Probably 'localhost'
 
 defined('SITE_ROOT') ? null : define('SITE_ROOT', 'local_site_root'); // eg. '/Users/...'
+defined('THEME_PATH')     ? null : define('THEME_PATH', SITE_ROOT."/content/themes/wp-skeleton-theme"); 
 
 /**
  * Sets the debugging modes in WordPress
